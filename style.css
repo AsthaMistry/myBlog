@@ -1,0 +1,84 @@
+body {
+    padding-top: 800px;
+    margin: 0;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    background: linear-gradient(#2d09e3 0%, #cbc9f5 100%);
+    position: absolute;
+    color: aliceblue;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.line {
+    height: 6px;
+    width: 60px;
+    margin: 8px auto;
+    color: black;
+    background-color: #000;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Redressed', cursive;
+}
+
+.parallax-inner {
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+}
+
+.link {
+    display: inline;
+    color: aquamarine;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.link:hover {
+    background-color: cornflowerblue;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#writing a {
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
